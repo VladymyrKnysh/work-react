@@ -16,10 +16,10 @@ export default function Painting({ title, quantity, url, author = 'не изве
 }
 
 Painting.propTypes = {
-  url: PropTypes.string,
-  title: PropTypes.string,
-  author: PropTypes.string,
-  price: PropTypes.number,
-  profileUrl: PropTypes.string,
-  quantity: PropTypes.number,
+  url: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  profileUrl: PropTypes.string.isRequired,
+  quantity: PropTypes.number.isRequired,
 }
